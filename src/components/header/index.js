@@ -1,37 +1,37 @@
 /* eslint-disable no-underscore-dangle */
-import React, { useState, useContext } from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
-import classNames from 'classnames';
-import ThemeContext from '../../context';
+// import PropTypes from 'prop-types';
+// import Helmet from 'react-helmet';
+// import classNames from 'classnames';
+// import ThemeContext from '../../context';
 import Logo from '../../../static/favicons/aiqrate-logo-final-blackbg.png';
-import Dark from '../../../static/material/moon.png';
-import Light from '../../../static/material/sun.png';
+// import Dark from '../../../static/material/moon.png';
+// import Light from '../../../static/material/sun.png';
 import config from '../../../config/siteConfig';
 import './style.scss';
 
-const NavList = ({ navStyle, closeMenu }) => {
-  return (
-    <nav className={navStyle}>
-      <ul className="nav-list">
-        {config.navbarLinks.map(item => (
-          <li key={item.label}>
-            <Link to={item.url} activeClassName="active" onClick={() => closeMenu(false)}>
-              <i className={`${item.iconClassName} fa-2x`} />
-              <span>{item.label}</span>
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </nav>
-  );
-};
+// const NavList = ({ navStyle, closeMenu }) => {
+//   return (
+//     <nav className={navStyle}>
+//       <ul className="nav-list">
+//         {config.navbarLinks.map(item => (
+//           <li key={item.label}>
+//             <Link to={item.url} activeClassName="active" onClick={() => closeMenu(false)}>
+//               <i className={`${item.iconClassName} fa-2x`} />
+//               <span>{item.label}</span>
+//             </Link>
+//           </li>
+//         ))}
+//       </ul>
+//     </nav>
+//   );
+// };
 
-NavList.propTypes = {
-  navStyle: PropTypes.string.isRequired,
-  closeMenu: PropTypes.func.isRequired,
-};
+// NavList.propTypes = {
+//   navStyle: PropTypes.string.isRequired,
+//   closeMenu: PropTypes.func.isRequired,
+// };
 
 // const ThemeToggle = () => {
 //   const themeContext = useContext(ThemeContext);
@@ -80,18 +80,18 @@ NavList.propTypes = {
 // };
 
 const Header = () => {
-  const [isOpenMenu, toggleOpenMenu] = useState(false);
+  // const [isOpenMenu, toggleOpenMenu] = useState(false);
 
-  const navClass = classNames({
-    'top-nav-bar': true,
-    open: isOpenMenu,
-  });
-  const mobileIcon = classNames({
-    fa: true,
-    'fa-bars': !isOpenMenu,
-    'fa-times': isOpenMenu,
-    'fa-3x': true,
-  });
+  // const navClass = classNames({
+  //   'top-nav-bar': true,
+  //   open: isOpenMenu,
+  // });
+  // const mobileIcon = classNames({
+  //   fa: true,
+  //   'fa-bars': !isOpenMenu,
+  //   'fa-times': isOpenMenu,
+  //   'fa-3x': true,
+  // });
   return (
     <header className="top-bar">
       <div className="container">
@@ -105,14 +105,14 @@ const Header = () => {
         <Link to="/test/">clickme</Link>
         {/* <ThemeToggle /> */}
         <div className="mobile-actions">
-          <button
+          {/* <button
             type="button"
             className="menu-button"
             aria-label="mobile-menu"
             onClick={() => toggleOpenMenu(!isOpenMenu)}
           >
             <i className={mobileIcon} />
-          </button>
+          </button> */}
         </div>
       </div>
     </header>
