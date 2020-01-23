@@ -102,7 +102,7 @@ const Header = () => {
         </div>
         {/* <NavList navStyle={navClass} closeMenu={toggleOpenMenu} /> */}
 
-        <Link to="/archives/">clickme</Link>
+        <Link to="/test/">clickme</Link>
         {/* <ThemeToggle /> */}
         <div className="mobile-actions">
           <button
