@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: aslamsk/aiqrate-ai
+  repo: aslamsk/new-aiqrate
   branch: master
 
 media_folder: static/images

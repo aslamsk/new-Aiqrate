@@ -5,14 +5,26 @@
 $card-height: 275px;
 
 .post-card {
+  // display: grid;
+  // margin: $spacing-normal;
+  // grid-template-columns: 1fr 2fr;
+  // grid-gap: $relative-spacing-xlarge;
+  // min-height: $card-height;
+  // border-radius: $base-border-radius * 4;
+  // box-shadow: $spacing-normal 0 $spacing-large var(--black);
+  // transition: all $transition-faster-easein;
   display: grid;
-  margin: $spacing-normal;
+  padding: 0;
+  border: 3px solid #ffbe5c;
+  /* margin: 1rem; */
   grid-template-columns: 1fr 2fr;
-  grid-gap: $relative-spacing-xlarge;
-  min-height: $card-height;
-  border-radius: $base-border-radius * 4;
-  box-shadow: $spacing-normal 0 $spacing-large var(--black);
-  transition: all $transition-faster-easein;
+  grid-gap: 2em;
+  margin-top: 85px;
+  min-height: 275px;
+  border-radius: 16px;
+  box-shadow: 1rem 0 1.25rem var(--black);
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
 
   > .post-card-cover {
     border-top-left-radius: $base-border-radius * 4;
