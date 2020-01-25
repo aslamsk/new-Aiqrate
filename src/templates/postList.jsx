@@ -26,7 +26,9 @@ const PostList = ({ data, pageContext }) => {
     <Layout>
       <SEO />
       <PostCardList posts={postList} />
+    <div className="container">
       <PostPagination currentPage={currentPage} numPages={numPages} />
+    </div>
     </Layout>
   );
 };
