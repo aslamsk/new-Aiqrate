@@ -1,17 +1,17 @@
 const config = {
-  author: 'Papan01', // Site owner
-  siteTitle: 'Gatsby-Starter-Papan01', // Site title.
+  author: 'aqrate', // Site owner
+  siteTitle: 'aiqrate', // Site title.
   siteTitleShort: 'GatsbyJS P01', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: 'GatsbyJS-Starter-Papan01', // Alternative site title for SEO.
+  siteTitleAlt: 'aiqrate', // Alternative site title for SEO.
   siteLanguage: 'en', // Site language.
   siteDescription: 'A blog starter with the bare essentials needed for a Gatsby site(SEO, pagination, category etc.)', // Website description used for RSS feeds/meta description tag.
-  siteLogo: 'static/favicons/favicon.png', // Logo used for manifest.
+  siteLogo: 'static/favicons/aiqrate-logo-final-blackbg.png', // Logo used for manifest.
   siteUrl: 'https://gatsby-starter-papan01.netlify.com', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   siteRss: '/rss.xml', // Path to the RSS file.
   siteFBAppID: '464217807633356', // FB Application ID for using app insights
   siteGATrackingID: 'UA-153303709-3', // Tracking code ID for google analytics.
-  disqusShortname: 'gatsbyjs-starter-papan01', // Disqus shortname.
+  disqusShortname: 'aiqrate', // Disqus shortname.
   twitterUserName: '', // twitter creator for SEO
   datePublished: '2019-12-08', // for SEO
   copyrightYear: '2019', // for SEO
@@ -20,7 +20,7 @@ const config = {
   rrssb: [
     {
       label: 'github',
-      url: 'https://github.com/papan01',
+      url: 'https://github.com/aiqrate',
       iconClassName: 'fab fa-github',
     },
     {

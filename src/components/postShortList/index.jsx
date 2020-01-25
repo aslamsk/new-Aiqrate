@@ -21,7 +21,6 @@ const postShortList = ({ data }) => {
                   <p>{`☕️ ${post.timeToRead} min read`}</p>
                 </div>
                 <Link to={post.slug}>{post.title}</Link>
-                {/* <Link to={post.slug}>read more</Link> */}
               </li>
             ))}
           </ul>

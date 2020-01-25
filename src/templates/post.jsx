@@ -48,7 +48,7 @@ const Post = ({ data, pageContext }) => {
   const { html, excerpt, timeToRead, frontmatter } = post;
   const { title, tags, cover, date, category } = frontmatter;
   const { slug, prev, next } = pageContext;
-  const Disqus = loadable(() => import('../components/disqus'));
+  // const Disqus = loadable(() => import('../components/disqus'));
   return (
     <Layout>
       <SEO title={title} description={excerpt} image={cover.publicURL} path={slug} articleDate={date} />
@@ -59,7 +59,7 @@ const Post = ({ data, pageContext }) => {
       {cover && <Img fluid={cover.childImageSharp.fluid} />}
       <div className="markdowm-body" dangerouslySetInnerHTML={{ __html: html }} />
       <PostPrevNext prev={prev} next={next} />
-      <Disqus slug={slug} title={title} />
+      {/* <Disqus slug={slug} title={title} /> */}
     </Layout>
   );
 };

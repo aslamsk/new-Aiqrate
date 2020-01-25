@@ -23,8 +23,8 @@ $card-height: 275px;
   min-height: 275px;
   border-radius: 16px;
   box-shadow: 1rem 0 1.25rem var(--black);
-  -webkit-transition: all 0.25s ease-in;
-  transition: all 0.25s ease-in;
+  // -webkit-transition: all 0.25s ease-in;
+  // transition: all 0.25s ease-in;
 
   > .post-card-cover {
     border-top-left-radius: $base-border-radius * 4;
@@ -40,6 +40,7 @@ $card-height: 275px;
       margin-block-end: 0;
       margin-block-start: 0;
       transition: all $transition-slower-ease;
+      color: red;
 
       &:hover {
         background: linear-gradient(
@@ -48,6 +49,7 @@ $card-height: 275px;
           var(--subtle-h1-2),
           var(--subtle-h1-3)
         );
+        color: red !important;
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -61,7 +63,7 @@ $card-height: 275px;
 
   &:hover {
     box-shadow: $spacing-normal 0 $spacing-xxlarge var(--post-card-hover);
-    transform: translate(0, -$spacing-normal);
+    // transform: translate(0, -$spacing-normal);
   }
 
   @include media-breakpoint-down($breakpoint-sm) {
