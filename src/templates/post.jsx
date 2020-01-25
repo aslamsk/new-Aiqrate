@@ -52,13 +52,15 @@ const Post = ({ data, pageContext }) => {
   return (
     <Layout>
       <SEO title={title} description={excerpt} image={cover.publicURL} path={slug} articleDate={date} />
-      <PostText category={category} date={date} timeToRead={timeToRead} wrapClass="post-head" head={title}>
-        <PostTags tags={tags} />
-      </PostText>
-      <hr />
-      {cover && <Img fluid={cover.childImageSharp.fluid} />}
-      <div className="markdowm-body" dangerouslySetInnerHTML={{ __html: html }} />
-      <PostPrevNext prev={prev} next={next} />
+      <div className="container">
+        <PostText category={category} date={date} timeToRead={timeToRead} wrapClass="post-head" head={title}>
+          <PostTags tags={tags} />
+        </PostText>
+        <hr />
+        {cover && <Img fluid={cover.childImageSharp.fluid} />}
+        <div className="markdowm-body" dangerouslySetInnerHTML={{ __html: html }} />
+        <PostPrevNext prev={prev} next={next} />
+      </div>
       {/* <Disqus slug={slug} title={title} /> */}
     </Layout>
   );

@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <Navigation>
       {/* <main className="page-wrap">{children}</main> */}
-      <main className="container">{children}</main>
+      <main>{children}</main>
     </Navigation>
   );
 };
