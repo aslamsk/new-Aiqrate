@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../layout';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-import {Link} from 'gatsby';
+import { Link } from 'gatsby';
 import img3 from '../images/bg-advisory-p.jpg';
 import BuildingPowerAImg from '../images/Building-an-AI-Powered-Organization.jpg';
 

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Layout from '../layout';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import img19 from '../images/bg-advisory-p.jpg';
