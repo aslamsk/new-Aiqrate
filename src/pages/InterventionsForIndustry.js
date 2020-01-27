@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Layout from '../components/layout';
+import Layout from '../layout';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import img14 from '../images/bg-advisory-p.jpg';
 import StrategicImg from '../images/Strategic-Interventions-for-AI@scale.jpg';

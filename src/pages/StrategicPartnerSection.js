@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Layout from '../components/layout';
+import Layout from '../layout';
 import { Container, Row, Col } from 'react-bootstrap';
 import img18 from '../images/bg-advisory-p.jpg';
 import Partner from '../images/AI-Strategic-Partner-ecosystem-for-Enterprises.png';

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Layout from '../components/layout';
+import Layout from '../layout';
 import { Container, Row } from 'react-bootstrap';
 import img20 from '../images/bg-advisory-p.jpg';
 
