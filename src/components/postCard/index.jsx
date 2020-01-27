@@ -21,7 +21,7 @@ const PostCard = ({ data }) => {
       >
         <p>{data.excerpt}</p>
         <PostTags tags={data.tags} />
-        <Link to={data.path}>Read More</Link>
+        <Link to={data.path} className="readmore">Read More</Link>
       </PostText>
     </article>
   );
