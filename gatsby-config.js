@@ -75,7 +75,7 @@ module.exports = {
         short_name: config.siteTitleShort,
         description: config.siteDescription,
         // start_url: config.pathPrefix === '' ? '/advisory' : config.pathPrefix,
-        start_url: '/',
+        start_url: '/pages/advisory/',
         background_color: `#282c35`,
         theme_color: `#282c35`,
         display: `standalone`,
