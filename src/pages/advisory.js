@@ -19,11 +19,11 @@ const advisory = () => {
   return (
     <Layout>
       <div style={{ maxWidth: `100%`, marginBottom: `1.45rem` }}>
-      <img
-          style={{ margin: 0 }}
-          src={img3}
-          alt="Landing3"
-          style={{ height: "40vh", width: "100%" }}
+        <img
+        style={{ margin: 0 }}
+        src={img3}
+        alt="Landing3"
+        style={{ height: "40vh", width: "100%" }}
         />
         <div className="page-title">
           <h5 className="page-links">
@@ -51,14 +51,14 @@ const advisory = () => {
           <strong>plan AI led interventions for ROI/value creation</strong>
         </p>
         <Row>
-        <div clasName="tutors-listing">
-    <div className="row card-deck">
+          <div clasName="tutors-listing">
+          <div className="row card-deck">
       <div className="col-xs-12 col-md-3 card-wrapper">
         <div className="row tutor card">
           <div className="col-xs-offset-1 col-xs-4 col-md-12 card-body card-custom-styles">
-              <Card.Img variant="top" src={cardImg1} className="custom-img-style" />
-                <li className="cust-text-style">
-                <Link to='/AiSeniorLeader/'>
+            <Card.Img variant="top" src={cardImg1} className="custom-img-style" />
+            <li className="cust-text-style">
+                  <Link to='/AiSeniorLeader/'>
                 AI for CXOs & Senior Leaders
                 </Link>
                 
@@ -69,61 +69,61 @@ const advisory = () => {
       <div className="col-xs-12 col-md-3 card-wrapper">
         <div className="row tutor card">
           <div className="col-xs-offset-1 col-xs-4 col-md-12 card-body card-custom-styles">
-          <Card.Img variant="top" src={cardImg2} className="custom-img-style" />
-                <li className="p=0 cust-text-style">
-                <Link to='/StrategicManagement/'>
+            <Card.Img variant="top" src={cardImg2} className="custom-img-style" />
+            <li className="p=0 cust-text-style">
+                  <Link to='/StrategicManagement/'>
                 Re-imagining Strategic Management Theories & Models with AI
                 </Link>
                 
                 </li>
-            </div>
+          </div>
         </div>
       </div>
       <div className="col-xs-12 col-md-3 card-wrapper">
         <div className="row tutor card">
           <div className="col-xs-offset-1 col-xs-4 col-md-12 card-body card-custom-styles">
-          <Card.Img variant="top" src={cardImg1} className="custom-img-style" />
-                <li className="cust-text-style">
-                <Link to='/BuildingPowerAi/'>
+            <Card.Img variant="top" src={cardImg1} className="custom-img-style" />
+            <li className="cust-text-style">
+                  <Link to='/BuildingPowerAi/'>
                 Building AI Powered Organizations
                 </Link>
                 
                 </li>
-            </div>
+          </div>
         </div>
       </div>
       <div className="col-xs-12 col-md-3 card-wrapper">
         <div className="row tutor card">
           <div className="col-xs-offset-1 col-xs-4 col-md-12 card-body card-custom-styles">
-          <Card.Img variant="top" src={cardImg2} className="custom-img-style" />
-                <li className="cust-text-style">
-                <Link to='/BuildingBlocs/'>
+            <Card.Img variant="top" src={cardImg2} className="custom-img-style" />
+            <li className="cust-text-style">
+                  <Link to='/BuildingBlocs/'>
                 Building Blocks for an AI Strategy
                 </Link>
                 
                 </li>
            
-           </div>
+          </div>
         </div>
       </div>
       <div className="col-xs-12 col-md-3 card-wrapper">
         <div className="row tutor card">
           <div className="col-xs-offset-1 col-xs-4 col-md-12 card-body card-custom-styles">
-          <Card.Img variant="top" src={cardImg2} className="custom-img-style" />
-                <li className="cust-text-style">
-                <Link to='/AiScale/'>
+            <Card.Img variant="top" src={cardImg2} className="custom-img-style" />
+            <li className="cust-text-style">
+                  <Link to='/AiScale/'>
                 AI @Scale
                 </Link>
                 
                 </li>
          
-         </div>
+          </div>
         </div>
       </div>
      
       
     </div>
-  </div>
+        </div>
   
         </Row>
 

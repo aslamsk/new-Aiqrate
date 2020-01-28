@@ -83,7 +83,8 @@ exports.createPages = async ({ graphql, actions }) => {
 
   for (let i = 0; i < numPages; i += 1) {
     createPage({
-      path: i === 0 ? `/` : `/${i + 1}`,
+      // path: i === 0 ? `/` : `/${i + 1}`,
+      path: `/${i + 1}`,
       component: path.resolve('./src/templates/postList.jsx'),
       context: {
         limit: postsPerPage,

@@ -1,7 +1,7 @@
 const config = {
   author: 'aqrate', // Site owner
   siteTitle: 'aiqrate', // Site title.
-  siteTitleShort: 'GatsbyJS P01', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleShort: 'aqrate.ai', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: 'aiqrate', // Alternative site title for SEO.
   siteLanguage: 'en', // Site language.
   siteDescription: 'A blog starter with the bare essentials needed for a Gatsby site(SEO, pagination, category etc.)', // Website description used for RSS feeds/meta description tag.
@@ -9,6 +9,7 @@ const config = {
   siteUrl: 'https://new-aiqrate.netlify.com/advisory/', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   siteRss: '/rss.xml', // Path to the RSS file.
+  // siteRss: '/pages/advisory.js',
   siteFBAppID: '464217807633356', // FB Application ID for using app insights
   siteGATrackingID: 'UA-153303709-3', // Tracking code ID for google analytics.
   disqusShortname: 'aiqrate', // Disqus shortname.
