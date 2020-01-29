@@ -31,100 +31,107 @@ import Forbs2 from '../images/forbs-2.jpg';
 import Forbs3 from '../images/forbs-3.jpg';
 
 const IndexPage = () => {
-  return (     
-     <Layout>
-        {/* <img style={{ margin: 0 }} src={Landing} alt="Landing-pic" style={{height:'90vh', width:'100%'}} /> */}
+  return (
+    <Layout>
+      {/* <img style={{ margin: 0 }} src={Landing} alt="Landing-pic" style={{height:'90vh', width:'100%'}} /> */}
 
-        {/* <Image /> */}
-        <div className="body-container">
+      {/* <Image /> */}
+      <div className="body-container">
         <Carousel>
-  <Carousel.Item>
-  <img className="landing-carousel-img" src={Landing} alt="no image"/>
-    <Carousel.Caption style={{position:"absolute",top:"20px"}}>
-    <h3>Venture Capital & Private Equity Firms</h3>
-      <p>At AIQRATE, with our proven expertise and seasoned experience coupled with bespoke frameworks and artifacts, 
-        we dive deep with you to craft your enterprise wide AI strategy.</p>
-        <Button variant="light" size="sm" style={{backgroundColor:"#f4f4f4"}}>MORE INFO</Button>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-  <img className="landing-carousel-img" src={Landing2} alt="no image"/>
-    <Carousel.Caption style={{position:"absolute",top:"20px"}}>
+          <Carousel.Item>
+            <img className="landing-carousel-img" src={Landing} alt="no image" />
+            <Carousel.Caption style={{ position: 'absolute', top: '20px' }}>
+              <h3>Venture Capital & Private Equity Firms</h3>
+              <p>
+                At AIQRATE, with our proven expertise and seasoned experience coupled with bespoke frameworks and
+                artifacts, we dive deep with you to craft your enterprise wide AI strategy.
+              </p>
+              <Button variant="light" size="sm" style={{ backgroundColor: '#f4f4f4' }}>
+                MORE INFO
+              </Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="landing-carousel-img" src={Landing2} alt="no image" />
+            <Carousel.Caption style={{ position: 'absolute', top: '20px' }}>
       <h3>small-medium-sized-businesses-smbs</h3>
-      <p>At AIQRATE, with our proven expertise and seasoned experience coupled with bespoke frameworks and artifacts, 
-        we dive deep with you to craft your enterprise wide AI strategy.</p>
-        <Button variant="light" size="sm" style={{backgroundColor:"#f4f4f4"}}>MORE INFO</Button>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-  <img className="landing-carousel-img" src={Landing3} alt="no image"/>
-    <Carousel.Caption style={{position:"absolute",top:"20px"}}>
-    <h3>academic-institutions</h3>
-    <p>At AIQRATE, with our proven expertise and seasoned experience coupled with bespoke frameworks and artifacts, 
-        we dive deep with you to craft your enterprise wide AI strategy.</p>
-        <Button variant="light" size="sm" style={{backgroundColor:"#f4f4f4"}}>MORE INFO</Button>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
+              <p>
+                At AIQRATE, with our proven expertise and seasoned experience coupled with bespoke frameworks and
+                artifacts, we dive deep with you to craft your enterprise wide AI strategy.
+              </p>
+              <Button variant="light" size="sm" style={{ backgroundColor: '#f4f4f4' }}>
+                MORE INFO
+              </Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="landing-carousel-img" src={Landing3} alt="no image" />
+            <Carousel.Caption style={{position:"absolute",top:"20px"}}>
+      <h3>academic-institutions</h3>
+              <p>
+                At AIQRATE, with our proven expertise and seasoned experience coupled with bespoke frameworks and
+                artifacts, we dive deep with you to craft your enterprise wide AI strategy.
+              </p>
+              <Button variant="light" size="sm" style={{ backgroundColor: '#f4f4f4' }}>
+                MORE INFO
+              </Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
         <Container className="text-center">
-      <CardColumns bg="light">
-        <Card className="text-light">
-        <Card.Img src={Forbs1} alt="Forbs"  className="forbs-cards"/>
-  <Card.ImgOverlay>
-          <Card.Body>
-            <Card.Text>
-              AI for CXO - Redefining the future of Leadership in the AI Era
-            </Card.Text>
-            <Button variant="primary">Read Post</Button>
-          </Card.Body>
-          </Card.ImgOverlay>
-        </Card>
-     
+          <CardColumns bg="light">
+            <Card className="text-light">
+              <Card.Img src={Forbs1} alt="Forbs" className="forbs-cards" />
+              <Card.ImgOverlay>
+                <Card.Body>
+                  <Card.Text>AI for CXO - Redefining the future of Leadership in the AI Era</Card.Text>
+                  <Button variant="primary">Read Post</Button>
+                </Card.Body>
+              </Card.ImgOverlay>
+            </Card>
 
-        <Card className="text-light">
-        <Card.Img src={Forbs2} alt="Forbs"  className="forbs-cards"/>
-  <Card.ImgOverlay>
-          <Card.Body>
-            <Card.Text>The New Age Enterprise - Enabled by AI</Card.Text>
-            <Button variant="primary" className="justify-content-center">
-              Read Post
-            </Button>
-          </Card.Body>
-        </Card.ImgOverlay>
-        </Card>
+            <Card className="text-light">
+              <Card.Img src={Forbs2} alt="Forbs" className="forbs-cards" />
+              <Card.ImgOverlay>
+                <Card.Body>
+                  <Card.Text>The New Age Enterprise - Enabled by AI</Card.Text>
+                  <Button variant="primary" className="justify-content-center">
+                    Read Post
+                  </Button>
+                </Card.Body>
+              </Card.ImgOverlay>
+            </Card>
 
-        <Card className="text-light">
-        <Card.Img src={Forbs3} alt="Forbs"  className="forbs-cards"/>
-  <Card.ImgOverlay>
-          <Card.Body>
-            <Card.Text className="d-flex align-items-center">
-              Mapping the AI Transformation Journey in your Organization.
-            </Card.Text>
-            <Button variant="primary">Read Post</Button>
-          </Card.Body>
-        </Card.ImgOverlay>
-        </Card>
-      </CardColumns>
+            <Card className="text-light">
+              <Card.Img src={Forbs3} alt="Forbs" className="forbs-cards" />
+              <Card.ImgOverlay>
+                <Card.Body>
+                  <Card.Text className="d-flex align-items-center">
+                    Mapping the AI Transformation Journey in your Organization.
+                  </Card.Text>
+                  <Button variant="primary">Read Post</Button>
+                </Card.Body>
+              </Card.ImgOverlay>
+            </Card>
+          </CardColumns>
 
-      <h2 className="align-self-center">
-        {/* what-we-do bottom-border */}
-        <span>
+            <h2 className="align-self-center">
+            {/* what-we-do bottom-border */}
+            <span>
           <strong>What </strong>
         </span>
         We Do
-      </h2>
-      <p>
-        AIQRATE is a bespoke global AI advisory and consulting firm. We provide
-        strategic AI advisory services and consulting offerings across multiple
-        business segments to enable clients on their AI powered transformation &
-        innovation journey and accentuate their decision making and business
-        performance.
-      </p>
-      <Row className="d-flex">
-        <Col lg={4}>
-        <img src={weDoimg} alt="bg-home-wgatwedo" style={{height:'auto'}} />
+          </h2>
+          <p>
+            AIQRATE is a bespoke global AI advisory and consulting firm. We provide strategic AI advisory services and
+            consulting offerings across multiple business segments to enable clients on their AI powered transformation
+            innovation journey and accentuate their decision making and business performance.
+          </p>
+          <Row className="d-flex">
+            <Col lg={4}>
+              <img src={weDoimg} alt="bg-home-wgatwedo" style={{ height: 'auto' }} />
         </Col>
-        <Col lg={8}>
+            <Col lg={8}>
           <ul className="what-we-do-row">
             <li className="icon-text">
               <div className="table-cell">
@@ -191,14 +198,14 @@ const IndexPage = () => {
             </li>
           </ul>
         </Col>
-      </Row>
+          </Row>
 
-      <h3 className="align-self-center">
+            <h3 className="align-self-center">
         Within the realm of AI advisory services and consulting offerings, we:
-      </h3>
+          </h3>
 
-      <Row>
-        <CardGroup className="w-100">
+            <Row>
+            <CardGroup className="w-100">
           <Card style={{ height: "11rem" }} className="sm-w-100">
             <Card.Body className="card-para">
               <Card.Title>
@@ -238,13 +245,13 @@ const IndexPage = () => {
             </Card.Body>
           </Card>
         </CardGroup>
-      </Row>
-      <Row className="border">
-        <p className="card-para">
+          </Row>
+            <Row className="border">
+            <p className="card-para">
           " Several enterprises look to use AI to optimize decision making. AI
           can unlock opportunities that otherwise overlooked. "
         </p>
-       {/* <Carousel style={{width:'100%'}}>
+            {/* <Carousel style={{width:'100%'}}>
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -279,12 +286,12 @@ const IndexPage = () => {
   </Carousel.Item>
 </Carousel> */}
 
-      </Row>
+          </Row>
 
-      <h2 className="align-self-center">THE AIQRATE ADVANTAGE</h2>
+            <h2 className="align-self-center">THE AIQRATE ADVANTAGE</h2>
 
-      <Row>
-        <CardGroup>
+            <Row>
+            <CardGroup>
           <Card>
             <Card.Body>
               <Card.Title>
@@ -326,7 +333,7 @@ const IndexPage = () => {
           </Card>
         </CardGroup>
 
-        <CardGroup>
+            <CardGroup>
           <Card>
             <Card.Body>
               <Card.Title>
@@ -367,17 +374,17 @@ const IndexPage = () => {
             </Card.Body>
           </Card>
         </CardGroup>
-      </Row>
+          </Row>
 
-      <h2 className="align-self-center">
-        <span>
+            <h2 className="align-self-center">
+            <span>
           <strong>WHY </strong>
         </span>
         ENGAGE US
-      </h2>
+          </h2>
 
-      <Row className="engage-row">
-        <Card>
+            <Row className="engage-row">
+            <Card>
           <Card.Body>
             <Card.Text className="icon-text">
               <div className="table-cell">
@@ -396,7 +403,7 @@ const IndexPage = () => {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
+            <Card>
           <Card.Body>
             <Card.Text className="icon-text">
               <div className="table-cell">
@@ -413,7 +420,7 @@ const IndexPage = () => {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
+            <Card>
           <Card.Body>
             <Card.Text className="icon-text">
               <div className="table-cell">
@@ -429,7 +436,7 @@ const IndexPage = () => {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
+            <Card>
           <Card.Body>
             <Card.Text className="icon-text">
               <div className="table-cell">
@@ -444,7 +451,7 @@ const IndexPage = () => {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
+            <Card>
           <Card.Body>
             <Card.Text className="icon-text">
               <div className="table-cell">
@@ -460,7 +467,7 @@ const IndexPage = () => {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
+            <Card>
           <Card.Body>
             <Card.Text className="icon-text">
               <div className="table-cell">
@@ -477,14 +484,14 @@ const IndexPage = () => {
             </Card.Text>
           </Card.Body>
         </Card>
-      </Row>
+          </Row>
 
-      <Row className="py-5">
-        <Col lg={8}>
+            <Row className="py-5">
+            <Col lg={8}>
           <h2 className="align-self-center text-left">
             AI & ANALYTICS
             {/* <span> */}
-              <p>Accelerating Business Decisions (Wiley CXO Series)</p>
+            <p>Accelerating Business Decisions (Wiley CXO Series)</p>
             {/* </span> */}
           </h2>
           <p className="text-primary">
@@ -504,17 +511,17 @@ const IndexPage = () => {
           </p>
           <Button variant="primary">Get The Book</Button>
         </Col>
-        <Col lg={4}>
+            <Col lg={4}>
           {/* <Image className="height:400px" /> */}
           <img src={Book} alt="Book" style={{marginTop:'5rem'}} />
 
 
         </Col>
-      </Row>
-    </Container>
-    <div className="container-fluid formcontent" style={{ background: "#2d3047" }}>
+          </Row>
+          </Container>
+        <div className="container-fluid formcontent" style={{ background: "#2d3047" }}>
             <div className="container">
-              <Row className="justify-content-center text-white">
+        <Row className="justify-content-center text-white">
                 <h2 className="align-self-center">
                   Sign up for our Newsletter AIQRATE
                 </h2>
@@ -546,9 +553,9 @@ const IndexPage = () => {
                   </Button>
                 </Form>
               </Row>
-            </div>
+      </div>
           </div>        
-        </div>
+      </div>
     </Layout>
   );
 };

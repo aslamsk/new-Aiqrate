@@ -359,7 +359,7 @@ const Header = () => {
             {/* ------------------------------------- */}
 
             <li style={{ fontSize: '14px', marginTop: '9px' }}>
-              <Link to="/" className="aiqration-nav-link" style={{ color: 'white' }}>
+              <Link to="/about/" className="aiqration-nav-link" style={{ color: 'white' }}>
                 AIQRATIONS
               </Link>
             </li>
