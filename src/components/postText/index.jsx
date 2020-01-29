@@ -11,7 +11,7 @@ const PostText = ({ head, category, date, timeToRead, wrapClass, children }) => 
       <h3 className="post-title">{head}</h3>
       <div className="post-subtitle">
         {category && (
-          <Link to={`/categories/${_.kebabCase(category)}`}>
+          <Link to={`/categories/${_.kebabCase(category)}`} className="post-text-link">
             <span className="post-category">{category}</span>
           </Link>
         )}

@@ -18,11 +18,12 @@ const PostCard = ({ data }) => {
         date={data.date}
         timeToRead={data.timeToRead}
         wrapClass="post-card-text"
-        head={<Link to={data.path}>{data.title}</Link>}
+        head={<Link to={data.path}
+        className="post-text-link">{data.title}</Link>}
       >
-        <p>{data.excerpt}</p>
-        <PostTags tags={data.tags} />
-        <Link to={data.path} className="readmore">
+        <p className="post-text-link">{data.excerpt}</p>
+        <PostTags tags={data.tags} className="post-text-link" />
+        <Link to={data.path} className="readmore post-text-link">
           Read More
         </Link>
       </PostText>

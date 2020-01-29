@@ -9,8 +9,8 @@ const PostTags = ({ tags }) => {
     <ul className="post-tags">
       {tags &&
         tags.map(tag => (
-          <li key={tag}>
-            <Link to={`/tags/${_.kebabCase(tag)}`}>{`🔖${tag}`}</Link>
+          <li key={tag} className="post-text-link">
+            <Link to={`/tags/${_.kebabCase(tag)}`} className="post-text-link">{`🔖${tag}`}</Link>
           </li>
         ))}
     </ul>

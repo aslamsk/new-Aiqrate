@@ -49,6 +49,7 @@ const PostPagination = ({ currentPage, numPages, subpath }) => {
               key={`pagination-number${page}`}
               to={`${subpath}${`/${page}`}`}
               activeClassName="active"
+              className="post-text-link active"
             >
               {page}
             </Link>
