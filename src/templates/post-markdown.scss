@@ -12,7 +12,8 @@ $alertStyles: (
 );
 
 .markdowm-body {
-  font-size: $base-relative-font-size * 1.5;
+  // font-size: $base-relative-font-size * 1.5;
+  font-size: 1rem;
   color: var(--text-color);
   word-wrap: break-word;
   -ms-text-size-adjust: 100%;
