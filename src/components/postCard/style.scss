@@ -33,6 +33,7 @@ $card-height: 275px;
 
   .post-card-text {
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     padding: $spacing-xsmall;
 

@@ -4,14 +4,15 @@ import { Link } from 'gatsby';
 import Img from 'gatsby-image';
 import PostText from '../postText';
 import PostTags from '../postTags';
-import { useIsMobile } from '../utils';
+// import { useIsMobile } from '../utils';
 import './style.scss';
+import '../header/header.css';
 
 const PostCard = ({ data }) => {
-  const isMobile = useIsMobile();
+  // const isMobile = useIsMobile();
   return (
     <article className="post-card container">
-      {!isMobile && data.cover && <Img fluid={{ ...data.cover.childImageSharp.fluid }} className="post-card-cover" />}
+      <Img fluid={{ ...data.cover.childImageSharp.fluid }} className="post-card-cover" />
       <PostText
         category={data.category}
         date={data.date}
@@ -21,7 +22,9 @@ const PostCard = ({ data }) => {
       >
         <p>{data.excerpt}</p>
         <PostTags tags={data.tags} />
-        <Link to={data.path} className="readmore">Read More</Link>
+        <Link to={data.path} className="readmore">
+          Read More
+        </Link>
       </PostText>
     </article>
   );

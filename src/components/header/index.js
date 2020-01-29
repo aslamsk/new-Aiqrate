@@ -2,16 +2,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import 'bootstrap/dist/css/bootstrap.css';
-// import PropTypes from 'prop-types';
-// import Helmet from 'react-helmet';
-// import classNames from 'classnames';
-// import ThemeContext from '../../context';
-// import Logo from '../../../static/favicons/aiqrate-logo-final-blackbg.png';
-// import Dark from '../../../static/material/moon.png';
-// import Light from '../../../static/material/sun.png';
-// import config from '../../../config/siteConfig';
 import './style.scss';
-// import "bootstrap/dist/css/bootstrap.css"
 import { FaSearch } from 'react-icons/fa';
 import { Nav, Navbar, NavDropdown, Col } from 'react-bootstrap';
 import './header.css';
@@ -19,11 +10,7 @@ import image from '../../../static/favicons/aiqrate-logo-final-blackbg.png';
 
 const Header = () => {
   return (
-    //  <div>
-    //    <Link to='/'>link</Link>
-    //  </div>
-
-    <div>
+     <div>
       <Navbar expand="lg" className="fixed-top d-flex justify-content-around">
         <Navbar.Brand>
           <Link to="/">
@@ -410,4 +397,4 @@ const Header = () => {
   );
 };
 
-export default React.memo(Header);
+export default Header;

@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Navigation from '../components/navigation';
-import '../layout/layout.css';
+import './layout.css';
+import '../components/header/header.css';
 
 const Layout = ({ children }) => {
   return (
