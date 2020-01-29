@@ -8,7 +8,7 @@ const postShortList = ({ data }) => {
     <article>
       {data.map(field => (
         <section key={field.fieldValue}>
-          <h2>{field.fieldValue}</h2>
+          <h2 className="h2-text">{field.fieldValue}</h2>
           <ul className="post-short-list">
             {field.posts.map(post => (
               <li key={post.slug}>

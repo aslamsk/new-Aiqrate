@@ -344,4 +344,12 @@ h2 {
   -webkit-transition: all 2s ease;
   transition: all 2s ease;
 }
+.card-text {
+  text-align: center;
+  font-size: 16px;
+}
+.post-tags > li > a {
+  margin-top: 0 !important;
+  margin-right: 0 !important;
+}
 }

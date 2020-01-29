@@ -32,10 +32,10 @@ const Footer = () => {
       <div className="Container-fluid footer text-light ">
         <Row className="p-0 mx-0 text-center aqrations-footer">
           
-          <Link className="col text-light" style={{background:'#419d78'}} to="/Aiqrations/">
+          <Link className="col text-light" style={{background:'#419d78'}} to="/1/">
           AIQRATIONS
           </Link >
-          <Link className="col text-light" style={{background:'#2d3047'}} to="/Aiqrations/">
+          <Link className="col text-light" style={{background:'#2d3047'}} to="/1/">
           ARTICLES
           </Link>
          
