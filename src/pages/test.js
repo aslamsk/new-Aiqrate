@@ -7,9 +7,10 @@ import SEO from '../components/SEO';
 const Test = () => {
   return (
     <Layout>
-     
-           <h1>Testing</h1>
-       
+      <h1>Testing</h1>
+      <button>
+        <a href="/1/"> clickMe </a>
+      </button>
     </Layout>
   );
 };
