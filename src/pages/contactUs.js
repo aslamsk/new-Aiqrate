@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
-import Layout from '../layout';
+import React from 'react';
 import { Col, Container, Row, Media } from 'react-bootstrap';
 import './contact.css';
 import { FaChessQueen } from 'react-icons/fa';
-  const contactUs = () => {
-      return (
+import Layout from '../layout';
+
+const contactUs = () => {
+  return (
         <Layout>
-          <div style={{
+      <div
+        style={{
             backgroundColor: "#000000", width: "100%", height: "50px",
             lineHeight: '1.3rem'
           }}>
@@ -186,5 +188,5 @@ import { FaChessQueen } from 'react-icons/fa';
           {/* </div> */}
         </Layout>
       )
-    }
+};
 export default contactUs;
